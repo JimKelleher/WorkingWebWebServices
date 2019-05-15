@@ -1,0 +1,240 @@
+﻿{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - elton john",
+    "totalResults": "58100000",
+    "searchTerms": "elton john",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "000918181577548808688:-70omskbdmo",
+    "searchType": "image"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - elton john",
+    "totalResults": "58100000",
+    "searchTerms": "elton john",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "000918181577548808688:-70omskbdmo",
+    "searchType": "image"
+   }
+  ]
+ },
+ "context": {
+  "title": "entire_internet"
+ },
+ "searchInformation": {
+  "searchTime": 0.439925,
+  "formattedSearchTime": "0.44",
+  "totalResults": "58100000",
+  "formattedTotalResults": "58,100,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Elton John | Music Theatre International",
+   "htmlTitle": "\u003cb\u003eElton John\u003c/b\u003e | Music Theatre International",
+   "link": "http://www.mtishows.com/sites/default/files/profile/elton-john.jpg?download=1",
+   "displayLink": "www.mtishows.com",
+   "snippet": "Elton John",
+   "htmlSnippet": "\u003cb\u003eElton John\u003c/b\u003e",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.mtishows.com/people/elton-john",
+    "height": 700,
+    "width": 1400,
+    "byteSize": 178469,
+    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT70RZhn9JD2eXjtt_oGBbYRUgIsxR2PrSJboeV9-UTjjiMtlkZ7vH0yzA",
+    "thumbnailHeight": 75,
+    "thumbnailWidth": 150
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Elton John - Wikipedia",
+   "htmlTitle": "\u003cb\u003eElton John\u003c/b\u003e - Wikipedia",
+   "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Elton_John_2011_Shankbone_2.JPG/220px-Elton_John_2011_Shankbone_2.JPG",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Elton John 2011 Shankbone 2.",
+   "htmlSnippet": "\u003cb\u003eElton John\u003c/b\u003e 2011 Shankbone 2.",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "https://en.wikipedia.org/wiki/Elton_John",
+    "height": 275,
+    "width": 220,
+    "byteSize": 11725,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRGft1xBD1RuC8iJ4jpqqiMhmnd7-FW9T_9GcDBVMYzyE8BAfFfYmc1hB0",
+    "thumbnailHeight": 114,
+    "thumbnailWidth": 91
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Elton John to play ABQ in March | Albuquerque Journal",
+   "htmlTitle": "\u003cb\u003eElton John\u003c/b\u003e to play ABQ in March | Albuquerque Journal",
+   "link": "https://d3el53au0d7w62.cloudfront.net/wp-content/uploads/2016/11/29/wp-1480431100082.jpg",
+   "displayLink": "www.abqjournal.com",
+   "snippet": "Elton John to play ABQ in ...",
+   "htmlSnippet": "\u003cb\u003eElton John\u003c/b\u003e to play ABQ in ...",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "https://www.abqjournal.com/897585/elton-john-to-play-abq-in-march.html",
+    "height": 1242,
+    "width": 1862,
+    "byteSize": 933068,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSylnRzCgSNFa-kba2HXToUMoe7sYvjhxp_RII7WuuHi3ge0Es9suPk9B4",
+    "thumbnailHeight": 100,
+    "thumbnailWidth": 150
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "File:Elton John 2011 Shankbone 2.JPG - Wikimedia Commons",
+   "htmlTitle": "File:\u003cb\u003eElton John\u003c/b\u003e 2011 Shankbone 2.JPG - Wikimedia Commons",
+   "link": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Elton_John_2011_Shankbone_2.JPG",
+   "displayLink": "commons.wikimedia.org",
+   "snippet": "File:Elton John 2011 Shankbone ...",
+   "htmlSnippet": "File:\u003cb\u003eElton John\u003c/b\u003e 2011 Shankbone ...",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "https://commons.wikimedia.org/wiki/File:Elton_John_2011_Shankbone_2.JPG",
+    "height": 2848,
+    "width": 2278,
+    "byteSize": 1303062,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXnmYieepWnqHQ3sJAePKsVBgWjgxGwS-p2I42WkzYPgoXLashK5uxSp4",
+    "thumbnailHeight": 150,
+    "thumbnailWidth": 120
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Ticket prices set for 2016 Elton John show in Columbus | Columbus ...",
+   "htmlTitle": "Ticket prices set for 2016 \u003cb\u003eElton John\u003c/b\u003e show in Columbus | Columbus ...",
+   "link": "http://www.ledger-enquirer.com/entertainment/lvg5nr/picture44351211/ALTERNATES/LANDSCAPE_1140/Elton%20John",
+   "displayLink": "www.ledger-enquirer.com",
+   "snippet": "... for 2016 Elton John show ...",
+   "htmlSnippet": "... for 2016 \u003cb\u003eElton John\u003c/b\u003e show ...",
+   "mime": "image/",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "http://www.ledger-enquirer.com/entertainment/local-events/article45239652.html",
+    "height": 712,
+    "width": 1140,
+    "byteSize": 833855,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRh6BJWVDrPkddW992YkeAoS47zgXyyYCy10rg6aU8BtGe8Z33m-lKRfuU",
+    "thumbnailHeight": 94,
+    "thumbnailWidth": 150
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Elton John Concert Dates Tickets",
+   "htmlTitle": "\u003cb\u003eElton John\u003c/b\u003e Concert Dates Tickets",
+   "link": "http://www.lasvegastravelersinfo.com/images/2016/artist/Elton-John.jpg",
+   "displayLink": "www.lasvegastravelersinfo.com",
+   "snippet": "Buy Tickets to see Elton John",
+   "htmlSnippet": "Buy Tickets to see \u003cb\u003eElton John\u003c/b\u003e",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.lasvegastravelersinfo.com/concerts/2016/Elton-John.html",
+    "height": 1463,
+    "width": 2197,
+    "byteSize": 256919,
+    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5o_gVnC3Lc-6h3KHPHWzzvDz4tNdH37uFT1vWSfLwe_BUB4JQ2TFczY8",
+    "thumbnailHeight": 100,
+    "thumbnailWidth": 150
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Elton John : NPR",
+   "htmlTitle": "\u003cb\u003eElton John\u003c/b\u003e : NPR",
+   "link": "https://media.npr.org/assets/img/2013/09/23/eltonjohn-cred-josephguay_wide-986a2554dadbaa3bfea159528fc548a2f7e1a681.jpg?s=1400",
+   "displayLink": "www.npr.org",
+   "snippet": "Elton John: The Fresh Air ...",
+   "htmlSnippet": "\u003cb\u003eElton John\u003c/b\u003e: The Fresh Air ...",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.npr.org/artists/15396953/elton-john",
+    "height": 787,
+    "width": 1400,
+    "byteSize": 147896,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSaGPiIw5U4xqOeWRJZrNsFSQWLoVZe5-1qmAnBj4nVNAP1wWMZWionffs",
+    "thumbnailHeight": 84,
+    "thumbnailWidth": 150
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Confirmed: Elton John is in 'KINGSMAN: THE GOLDEN CIRCLE' — LRM Online",
+   "htmlTitle": "Confirmed: \u003cb\u003eElton John\u003c/b\u003e is in &#39;KINGSMAN: THE GOLDEN CIRCLE&#39; — LRM Online",
+   "link": "https://static1.squarespace.com/static/53323bb4e4b0cebc6a28ffa2/t/573b8916c6fc08e098b62820/1463519522668/Elton+John?format=1500w",
+   "displayLink": "lrmonline.com",
+   "snippet": "Elton John",
+   "htmlSnippet": "\u003cb\u003eElton John\u003c/b\u003e",
+   "mime": "image/",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "http://lrmonline.com/news/confirmed-elton-john-is-in-kingsman-the-golden-circle",
+    "height": 630,
+    "width": 1200,
+    "byteSize": 86714,
+    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd_WF4F_JikXtIy_5nwYSiEMc1ALL9kizQiIiXiRMyZygzEANcmvsbp_0",
+    "thumbnailHeight": 79,
+    "thumbnailWidth": 150
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Elton John - Wikipedia",
+   "htmlTitle": "\u003cb\u003eElton John\u003c/b\u003e - Wikipedia",
+   "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Elton_John_in_Norway_4.jpg/220px-Elton_John_in_Norway_4.jpg",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Elton John performs at the ...",
+   "htmlSnippet": "\u003cb\u003eElton John\u003c/b\u003e performs at the ...",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "https://en.wikipedia.org/wiki/Elton_John",
+    "height": 220,
+    "width": 220,
+    "byteSize": 10833,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSsQOsRBhx_AadIKjoxEmFt4jy3DlBCnuU_dQMdkZvvLNgossD_WXpeVg",
+    "thumbnailHeight": 107,
+    "thumbnailWidth": 107
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Top 17 Funniest Elton John Faces | Playbuzz",
+   "htmlTitle": "Top 17 Funniest \u003cb\u003eElton John\u003c/b\u003e Faces | Playbuzz",
+   "link": "http://cdn.playbuzz.com/cdn/e7f8b062-0d87-4aa7-bff6-27d48fbf1264/654f403f-8ac6-4a38-839a-daa335a81841.jpeg",
+   "displayLink": "www.playbuzz.com",
+   "snippet": "Top 17 Funniest Elton John ...",
+   "htmlSnippet": "Top 17 Funniest \u003cb\u003eElton John\u003c/b\u003e ...",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://www.playbuzz.com/brianna27/top-17-funniest-elton-john-faces",
+    "height": 665,
+    "width": 1000,
+    "byteSize": 142476,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSQdcVduGQy9XJ6_2t7-FzQuUO-WilYfoM6YYyGE5Fcldehx8ansSUGL_eq",
+    "thumbnailHeight": 99,
+    "thumbnailWidth": 149
+   }
+  }
+ ]
+}

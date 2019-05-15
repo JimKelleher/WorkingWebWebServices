@@ -28,9 +28,18 @@ namespace WorkingWebWebServices
             WebClient webClient = new WebClient();
             string response = webClient.DownloadString(request);
 
+            //--------------------------------------------------------------------------------------------------
+            // CORS-compliant XML HTTP GET request/response
+
+            // CROSS-REFERENCE: PROXY TRANSIT ENCODING/DECODING 1 OF 3:
+            // THIS IS:  C:\a_dev\ASP\WorkingWebWebServices\WorkingWebWebServices(ProxyController.cs)
+            // SEE ALSO: C:\a_dev\ASP\WikipediaDiscography\WikipediaDiscography(WikipediaDiscography.js)
+            // SEE ALSO: C:\a_dev\ASP\WorkingWebWebServices\WorkingWebWebServices(WorkingWebBrowserServices.js)
+
             // Encode the only characters that get messed up in transit:
             response = response.Replace("\"", "DOUBLEQUOTE");
             response = response.Replace("\\", "BACKSLASH");
+            //--------------------------------------------------------------------------------------------------
 
             // Return it:
             return response;

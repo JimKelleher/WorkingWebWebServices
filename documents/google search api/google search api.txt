@@ -1,0 +1,263 @@
+
+
+What is Google Custom Search?
+
+https://developers.google.com/custom-search/
+
+dddddd
+
+https://developers.google.com/custom-search/docs/tutorial/introduction
+
+Welcome! This tutorial will help you create a customized search in just a few minutes.
+
+ddddddddddd
+
+https://console.developers.google.com/apis/api/customsearch/overview?project=api-project-124542758258
+
+About this API
+
+Google Custom Search enables you to search over a slice of the web, such as your own website, or a collection of websites. You can harness the power of Google to create a search engine tailored to your needs and interests, and you can present the results in your website.
+
+Using credentials with this API
+
+Using an API key
+
+dddddddd
+
+on the prior, I clicked "ENABLE"
+
+ddddddddd
+
+I selected:
+
+Try this API in APIs Explorer
+
+dddddddd
+
+option, I selected:
+
+search.cse.list	
+
+Returns metadata about the search performed, metadata about the custom search engine used for the search, and the search results.
+
+dddddddd
+
+it put up a "playground"/"sandbox" querier of which I am familiar
+
+https://www.google.com/search?tbm=isch&q=music+group+singer+"The Beatles"
+
+tried a query - got error:
+
+Need to provide a Custom Search Engine ID. Missing cx or cref parameter
+
+ddddddddddd
+
+ddddddd
+
+stack overflow:
+
+here you can find the cx id http://www.google.com/cse/manage/all. look for My search engines then choose from the list
+
+This took me "inside" the Custom Search setup site....
+
+dddddd
+
+Edit search engines
+
+Add
+Delete
+
+ddddddddd
+
+I picked Add
+
+ddddddddd
+
+created "entire_internet"
+
+The public url of your search engine:
+
+https://cse.google.com:443/cse/publicurl?cx=000918181577548808688:-70omskbdmo
+
+
+ddddddddddd
+
+<script>
+  (function() {
+
+    var cx = '000918181577548808688:-70omskbdmo';  <<<<<<<<<<<<<<<<<< COPY THIS: don't copy encoded values into sandbox
+
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+dddddd
+
+I used CX to drive my query: worked!
+
+dddddddddd
+
+FINAL RESULT:
+
+GET https://www.googleapis.com/customsearch/v1?q=elton%2Bjohn&cx=000918181577548808688%3A-70omskbdmo&searchType=image&key={YOUR_API_KEY}
+
+ddddddddd
+
+https://www.googleapis.com/customsearch/v1
+
+?q=elton%2Bjohn
+
+&cx=000918181577548808688%3A-70omskbdmo
+
+&searchType=image
+
+&key={YOUR_API_KEY}
+
+&key=AIzaSyD19DQuEq9Jc_R75eyOZdLi2qzmmQqG6ss
+
+ddddddddddddd
+
+https://www.googleapis.com/customsearch/v1?q=elton%2Bjohn&cx=000918181577548808688%3A-70omskbdmo&searchType=image&key=AIzaSyD19DQuEq9Jc_R75eyOZdLi2qzmmQqG6ss
+&start=10
+
+ddddddddddddd
+
+api explorer:
+
+	https://developers.google.com/apis-explorer/#p/customsearch/v1/
+
+using my search:
+
+	https://developers.google.com/apis-explorer/#p/customsearch/v1/search.cse.list
+
+most basic query:
+
+	https://developers.google.com/apis-explorer/#p/customsearch/v1/search.cse.list?q=elton&cx=000918181577548808688%253A-70omskbdmo&_h=2&
+
+	supplies q (query) and cx (required)
+
+	returns: "count": 10, "startIndex": 1,
+
+
+dddddddddddddd
+
+new parm
+
+	&num=3
+
+	returns: "count": 3, "startIndex": 1,
+
+dddddddddddddd
+
+new parm
+
+	&num=10
+
+	&start=11
+
+	returns: "count": 10, "startIndex": 11,
+
+final parm
+
+	q=elton							
+	&cx=000918181577548808688%3A-70omskbdmo
+	&num=10
+	&searchType=image <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	&start=21
+	&key={YOUR_API_KEY}
+	&key=AIzaSyD19DQuEq9Jc_R75eyOZdLi2qzmmQqG6ss
+
+dddddddd
+
+USE THIS FOR ACTUAL APP:
+
+https://www.googleapis.com/customsearch/v1
+?q=elton+john
+&cx=000918181577548808688:-70omskbdmo
+&num=10
+&searchType=image
+&start=1
+&key=AIzaSyD19DQuEq9Jc_R75eyOZdLi2qzmmQqG6ss
+
+https://www.googleapis.com/customsearch/v1?q=elton+john&cx=000918181577548808688:-70omskbdmo&num=10&searchType=image&start=1&key=AIzaSyD19DQuEq9Jc_R75eyOZdLi2qzmmQqG6ss
+
+ddddddddddddd
+
+Google APIs Explorer
+
+https://developers.google.com/apis-explorer/#p/customsearch/v1/search.cse.list
+
+&num = Number of search results to return (integer)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

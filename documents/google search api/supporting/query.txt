@@ -1,0 +1,34 @@
+
+https://www.google.com/search?q=elton+john&hl=en&biw=1280&bih=918&site=webhp&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwi24_v18Y_SAhUp5oMKHWAyCRwQ_AUICCgD
+
+https://www.google.com/search
+?q=elton+john
+&hl=en
+&biw=1280
+&bih=918
+&site=webhp
+&source=lnms
+&tbm=isch <<<<<<<<<<<<<<<<<<<<<<<
+&sa=X
+&sqi=2
+&ved=0ahUKEwi24_v18Y_SAhUp5oMKHWAyCRwQ_AUICCgD
+
+minimal that works:
+
+https://www.google.com/search?q=elton+john&tbm=isch
+
+https://www.google.com/search?q=paul+simon&tbm=isch
+
+https://www.google.com/search?q=zoe+johnston&tbm=isch
+
+dddddddddd
+
+https://www.google.com/search?tbm=isch&q=elton+john
+
+https://www.google.com/search
+?tbm=isch
+&q=elton+john
+
+note, re: "quick and dirty" in lieu of API usage
+
+

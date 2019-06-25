@@ -1,0 +1,9 @@
+
+
+queries.request.totalResults = 58100000  
+
+
+items.link = http://www.mtishows.com/sites/default/files/profile/elton-john.jpg?download=1
+
+
+items.link = https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Elton_John_2011_Shankbone_2.JPG/220px-Elton_John_2011_Shankbone_2.JPG  
